@@ -1,0 +1,35 @@
+@use 'variables' as v;
+@use 'mixins' as m;
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    // overflow: hidden;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: v.$fuente_wsRegular;
+    position: relative;
+    // overflow-x: hidden;
+}
+
+h1, h2, h3, h4, a, p, span {
+    font-family: v.$fuente_wsMedium;
+}
+
+// @keyframes arrow {
+//     0% {
+//         transform: translate(0px, 10px);
+//     }
+//     50% {
+//         transform: translate(0px, 20px);
+//     }
+//     100% {
+//         transform: translate(0px, 10px);
+//     }
+// }
